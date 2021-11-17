@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector checked</title>
+</head>
+<body>
+    <style>
+        input:checked+label{
+            color: rgb(45, 16, 209);
+            font-size: large;
+        }
+    </style>
+    <h1> selector checked </h1>
+    <form action="">
+        <input type="radio" name="gender" value="male" id="male"> 
+        <label for="male">nam</label><br>
+        <input type="radio" name="gender" value="female" id="female"> 
+        <label for="female">nu</label><br>
+        <button>dang nhap</button>
+    </form>
+</body>
+</html>

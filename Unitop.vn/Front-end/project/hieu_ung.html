@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>hieu ung hover chuot vao social media</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul.list-social-media {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        ul.list-social-media li {
+            margin: 0px 5px;
+        }
+
+        ul.list-social-media li a {
+            color: #333;
+            text-align: center;
+            font-size: 20px;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            background: #f5f5f5;
+            display: block;
+        }
+
+        ul.list-social-media li a i {
+            width: 100%;
+            height: 100%;
+            line-height: 50px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        ul.list-social-media li a:hover {
+            color: #fff;
+        }
+
+        ul.list-social-media li a:hover i:nth-child(1) {
+            transform: translateY(-50px);
+        }
+
+        ul.list-social-media li i:nth-child(2) {
+            opacity: 0;
+        }
+
+        ul.list-social-media li a:hover i:nth-child(2) {
+            transform: translateY(-50px);
+            opacity: 1;
+        }
+
+        ul.list-social-media li a.facebook:hover {
+            background: #3b5999;
+        }
+
+        ul.list-social-media li a.google:hover {
+            background: #ff6600;
+        }
+
+        ul.list-social-media li a.youtube:hover {
+            background: #cd201f;
+        }
+
+        ul.list-social-media li a.twitter:hover {
+            background: #55acee;
+        }
+    </style>
+    <div id="wrapper">
+        <ul class="list-social-media">
+            <li><a href="" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </a></li>
+            <li><a href="" class="google">
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-google"></i>
+                </a></li>
+            <li><a href="" class="youtube">
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-youtube"></i>
+                </a></li>
+            <li><a href="" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter"></i>
+                </a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

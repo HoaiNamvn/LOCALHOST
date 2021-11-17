@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector theo property</title>
+</head>
+
+<body>
+    <style>
+        /* a[href] {
+            color: aqua;
+            font-size: 15px;
+        }
+        a[href="https://unitop.vn" ]{
+           color:red; 
+        }
+        a[href=""]{
+            color: brown;
+        } */
+        /* a[href*="http"]{
+            color: rgb(218, 25, 25);
+        } */
+        /* a[href^="ht"]{
+            color: aqua;
+        } */
+        a[ href$="vn"]{
+            color: rgb(119, 10, 43);
+        }
+    </style>
+    <h1>Attr Selector</h1>
+    <a href="">Php master</a>
+    <a>bootstrap AZ</a>
+    <a href="https://unitop.vn"> Đây là đoạn văn test tiêng việt của tôi</a>
+    <p>Sở Giao thông Vận tải Hà Nội vừa báo cáo Thành ủy danh mục công trình giao thông quan trọng giai đoạn 2021-2025,
+        trong đó có bảy công trình đường vành đai.
+
+        Vành đai 1 đoạn Hoàng Cầu - Voi Phục dài 2,27 km, tổng đầu tư hơn 7.200 tỷ đồng, do Ban Quản lý dự án đầu tư xây
+        dựng công trình dân dụng và công nghiệp thành phố đang triển khai bằng nguồn vốn ngân sách TP Hà Nội.
+
+        Vành đai 2 trên cao, đoạn Vĩnh Tuy - Ngã Tư Vọng kết hợp mở rộng phần từ Vĩnh Tuy đến Ngã Tư Sở đang thực hiện
+        theo hợp đồng BT (xây dựng - chuyển giao) ký kết giữa Hà Nội và Tập đoàn Vingroup.</p>
+
+</body>
+
+</html>

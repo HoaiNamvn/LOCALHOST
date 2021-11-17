@@ -1,0 +1,35 @@
+/* stlyle-body */
+body{
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* style-header */
+header{
+    background-color: aqua;   
+}
+header:hover{
+    background-color: brown;   
+}
+
+/* style-content */
+
+#content h2{
+color: orange;
+}
+#content h2.text-green{
+    color: green;
+}
+#content input:checked+label{
+    background-color: hotpink;
+}
+
+/* style footer */
+/* footer{
+    background-color: aqua;
+}
+footer:hover{
+
+    background-color: brown;
+} */

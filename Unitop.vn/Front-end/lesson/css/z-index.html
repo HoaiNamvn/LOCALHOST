@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index </title>
+
+</head>
+
+<body>
+    <style>
+        .box-parent {
+            background-color: lemonchiffon;
+            height: 400px;
+            width: 600px;
+            position: relative;
+        }
+
+        .box1,
+        .box2 {
+            width: 100px;
+            height: 80px;
+            position: absolute;
+        }
+
+        .box1 {
+            background-color: green;
+            top: 60px;
+            left: 20px;
+            z-index: 1;
+        }
+
+        .box2 {
+            background-color: lightcoral;
+            top: 80px;
+            left: 50px;
+            z-index: 2;
+        }
+    </style>
+    <h1>z-index </h1>
+    <div class="box-parent">
+        <div class="box1"> Box1</div>
+        <div class="box2"> Box2</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+h1{
+color: #ffee00;
+}
+b{
+    color: aqua;
+}
+.post-title{
+    color: hotpink;
+ }
+ 
+/* #home{
+    color: rgb(15, 190, 29);
+}
+h1#home{
+    color: darkred;
+} */
+h1#home{
+    color: darkred;
+}
+#home{
+    color: rgb(15, 190, 29);
+}
+
+   

@@ -1,0 +1,23 @@
+
+/* Iphone(480 * 640) */
+@media screen and (min-width: 320px){
+body{
+	background: purple;
+}
+/* Tablet nho (480 * 640) */
+@media screen and (min-width: 480px){
+body{
+	background: blue;
+}
+/* Ipad doc (768 * 1024) */
+@media screen and (min-width: 768px){
+body{
+	background: black;
+}
+/* Ipad ngang (1024 * 768) */
+@media screen and (min-width: 1024px){
+body{
+	background: yellow;
+}
+
+

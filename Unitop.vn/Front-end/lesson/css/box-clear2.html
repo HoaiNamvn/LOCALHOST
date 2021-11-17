@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box clear </title>
+</head>
+
+<body>
+    <style>
+        #wrapper {
+            width: 960px;
+            margin: 0px auto;
+        }
+
+        .post-thumb {
+            width: 300px;
+            display: block;
+           float: left;
+            margin-top: 10px;
+            padding-right: 20px;
+        }
+
+        .post-thumb {
+            max-width: 100%;
+        }
+
+        .post-desc {
+            float: left;
+        }
+
+        .post-title {
+            display: block;
+            text-decoration: none;
+            color: green;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+    </style>
+    <div id="wrapper">
+        <h1> float</h1>
+        <article>
+            <a href="" class="post-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                repellendus!</a>
+            <a href="" class="post-thumb">
+                <img src="bg.png" alt="anh khong ton tai" title="google">
+                <p class="post-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto itaque fuga sapiente delectus
+                    quis possimus commodi corporis libero! Eius voluptates repellendus harum iusto, hic laudantium
+                    incidunt delectus doloremque? Tempora, doloremque.
+
+                </p>
+                <div class="clear-both"></div>
+            </a>
+        </article>
+        <article>
+            <a href="" class="post-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                repellendus!</a>
+            <a href="" class="post-thumb">
+                <img src="bg.png" alt="anh khong ton tai" title="google">
+                <p class="post-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto itaque fuga sapiente delectus
+                    quis possimus commodi corporis libero! Eius voluptates repellendus harum iusto, hic laudantium
+                    incidunt delectus doloremque? Tempora, doloremque.
+
+                </p>
+                <div class="clear-both"></div>
+            </a>
+        </article>
+    </div>
+</body>
+
+</html>

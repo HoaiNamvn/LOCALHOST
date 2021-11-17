@@ -1,0 +1,21 @@
+/* Ipad ngang(1024 * 768) */
+@media screen and (max-width:1024px){
+	#wrapper{
+		width: 100%;
+	}
+}
+/* Ipad doc (768 *1024) */
+@media screen and (max-width:768px){
+}
+/* Tablet nho (480 * 640) */
+@media screen and (max-width:480px){
+	#content,#sidebar{
+		width: 100%;
+	}
+}
+/* Iphone (480 *640) */
+@media screen and (max-width:320px){
+}
+/* Iphone nho  */
+@media screen and (max-width:240px){
+}

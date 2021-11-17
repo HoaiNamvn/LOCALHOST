@@ -1,0 +1,45 @@
+
+body{
+	font-family: arial;
+	font-size:14px;
+	line-height: 23px;
+	color: #333;
+}
+#wrapper{
+	width: 960px;
+	margin:0px auto;
+}
+
+#header,#footer{
+	padding: 0px;
+	height: 40px;
+	width: 100%;
+	background: grey;
+}
+#content,#sidebar{
+	display: block;
+	min-height: 600px;
+	padding:  0px;
+}
+#content{
+	float: left;
+	width: 70%;
+	background: #f5f5f5;
+}
+#sidebar{
+	background: #d5d5d5;
+	float: right;
+	width: 30%;
+}
+ .clearfix:after{
+     content: "";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clearfix{
+     clear: both;
+     display: block;
+}

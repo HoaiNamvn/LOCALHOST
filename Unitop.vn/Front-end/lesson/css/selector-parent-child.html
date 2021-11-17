@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector parent-child</title>
+</head>
+
+<body>
+    <style>
+        ol#main-menu>li>a{
+            color: aqua;
+            font-size: 15px;
+        }
+    </style>
+    <ol id="main-menu" type="1" start="2">
+        <li> <a href="">trang chu</a> </li>
+        <li> <a href="">thoi su </a> </li>
+        <li> <a href="">kinh doanh</a> </li>
+        <li> <a href="">menu</a>
+            <ul class="sub-menu">
+                <li> <a href="">menu1</a></li>
+                <li> <a href="">menu2</a></li>
+                <li> <a href="">menu3</a></li>
+            </ul>
+        </li>
+
+    </ol>
+</body>
+
+</html>

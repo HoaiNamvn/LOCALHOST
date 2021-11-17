@@ -1,0 +1,58 @@
+#container{
+    width: 960px;
+    margin: 0px auto;
+    background-color: white;
+    
+}
+#list-product{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  space-between;   
+   
+
+ 
+}
+ul li div.product-item{
+    width: 300px;
+    position: relative;
+    border: 1px solid rgb(197, 187, 187);   
+    margin-bottom: 50px;
+}
+
+ul li div.product-item:hover{
+border: 1px solid brown;
+}
+span.discount{ 
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+.price{
+    position: relative;
+    text-align: center;
+    color: orange;
+    padding:5px;
+}
+h1{ 
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a{  display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:nth-child(odd){
+    color: rgb(83, 80, 80);
+    padding: 0px;
+}
+a:nth-child(even){
+    color: red;
+    padding: 7px;
+}
+

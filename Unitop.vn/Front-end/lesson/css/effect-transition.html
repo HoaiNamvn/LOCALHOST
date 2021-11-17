@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition </title>
+</head>
+
+<body>
+    <style>
+        .box {
+            width: 200px;
+            padding: 50px;
+            background-color: tomato;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .box:hover {
+            width: 400px;
+            /* transition: width 0.5s,background-color 0.5s; */
+            transition: all 0.5s;
+            background-color: greenyellow;
+        }
+    </style>
+    <h1> Transition </h1>
+    <div class="box"> Box </div>
+
+
+</body>
+
+</html>

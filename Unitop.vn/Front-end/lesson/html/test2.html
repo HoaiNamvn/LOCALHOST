@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method=post action="http://www.rsch.tuis.ac.jp/~ohmi/sys-prog/printenv.cgi">
+        <p>あなたの血液型は？<br>
+        <input type=radio name="blood-type" value="1">A型
+        <input type=radio name="blood-type" value="2">B型
+        <input type=radio name="blood-type" value="3">O型
+        <input type=radio name="blood-type" value="4">AＢ 型
+        <input type=radio name="blood-type" value="5">宇宙人
+        </p>
+        <p>
+      飼っているベットは？(複数回答可)<br>
+        <input type=checkbox name="dog" value="1">犬
+        <input type=checkbox name="cat" value="1">猫
+        <input type=checkbox name="monkey" value="1">猿
+        <input type=checkbox name="monster" value="1">怪獣
+        <input type=checkbox name="alien" value="1">宇宙人
+        <input type=checkbox name="orther" value="1">そのほか
+        </p>
+        <p>
+        あなたの学系を選んでください 
+        <select name="gakkei">
+          <option selected value="0">指定なし</option>
+          <option value="1">情報システム</option>
+          <option value="2">数理情報</option>
+          <option value="3">社会情報</option>
+          <option value="4">まだ決まっていない</option>
+        </select>
+        </p>
+        <p>
+      名前を入力ください
+        <input type=text size=7 maxlength=6 name="student_id">
+        </p>
+        <p>
+       住所を入力ください　（　個人情報入力してください　）<br>
+        <textarea name=comment rows=4 cols=40>
+        ここに書いてください
+        </textarea>
+        </p>
+        
+        <p>
+        <input type=submit value="アンケート">
+        <input type=reset value="クリア">
+        </p>
+        </form>
+</body>
+</html>

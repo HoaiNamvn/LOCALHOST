@@ -1,0 +1,87 @@
+
+body{
+	font-family: arial;
+	font-size:14px;
+	line-height: 23px;
+	color: #333;
+}
+#wrapper{
+	width: 960px;
+	margin:0px auto;
+}
+#header{
+    position: relative;
+}
+#header #main-menu li{
+    list-style: none;
+}
+#header #main-menu li a , #header a#logo{
+    color: #f5f5f5;
+    font-size: 20px;
+    text-decoration: none;
+}
+#header a#logo{
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+}
+#header ul#main-menu{
+    float: right;
+}
+#header ul#main-menu li{
+    float: left;
+}
+#header ul#main-menu li a{
+    display: block;
+    padding: 5px 18px;
+}
+#header ul#main-menu li:hover a{
+    color: aqua;
+}
+
+
+#header,#footer{
+	padding: 0px;
+	height: 50px;
+	width: 100%;
+	background: grey;
+    color: #f5f5f5;
+}
+#icon-menu{
+    display: none;
+    color: #f5f5f5;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+cursor: pointer;
+}
+#content,#sidebar{
+	display: block;
+	min-height: 600px;
+	padding:  0px;
+}
+#content{
+	float: left;
+	width: 70%;
+	background: #f5f5f5;
+}
+#sidebar{
+	background: #d5d5d5;
+	float: right;
+	width: 30%;
+}
+ .clearfix:after{
+     content: "";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clearfix{
+     clear: both;
+     display: block;
+}

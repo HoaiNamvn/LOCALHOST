@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+.container{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    background-color: #f4f4f4;
+}
+#header{
+    background-color: #0073aa;
+    flex: 100%;
+}
+#header h2{
+    color: #f4f4f4;
+    font-size: 20;
+    padding: 15px 0px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+#content{
+    min-height: 600px;
+    flex: 100%;
+}
+
+#footer{
+    background-color: #232323;
+    color: #f4f4f4;
+    line-height: 20px;
+    padding: 10px 0px;
+    flex: 100%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector addon before after</title>
+</head>
+<body>
+    <style>
+        h2:before{
+            content: "✪";
+            color: rgb(202, 44, 65);
+        }
+        h2::after{
+            content: "❂";
+            color: firebrick;
+        }
+        .list-post a::after{
+            content: url("new-icon-gif.jpg" );
+            width: 10px;
+            height: 20px;
+            
+        }
+    </style>
+    <h2> Before after Selecter</h2>
+    <ul class="list-post">
+        <li> <a href="" class="new">bai viet so 1</a></li>
+        <li> <a href="">bai viet so 2</a></li>
+        <li> <a href=""class="new"bai viet so 3></a></li>
+        <li> <a href="">bai viet so 4</a></li>
+    </ul>
+</body>
+</html>

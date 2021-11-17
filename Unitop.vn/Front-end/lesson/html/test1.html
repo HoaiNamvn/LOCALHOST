@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is test html form</title>
+</head>
+
+<body>
+    <style>
+        form {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(221, 203, 97);
+        }
+
+        .area,
+        .likething,
+        .inf {
+            margin-top: 15px;
+        }
+    </style>
+    <h1> 情報入力ください</h1>
+    <form action="http://www.rsch.tuis.ac.jp/~ohmi/sys-prog/printenv.cgi" method="POST">
+        <p>
+            <input type=submit value="送信">
+            <input type=reset value="クリア">
+        </p>
+        <div class="inf">
+            <label for="addr">メールアドレス</label>
+            <input type="email" name="add" id="addr" placeholder="ex.@gmail.com"> <br>
+            <label for="pass">パスワード</label>
+            <input type="password" name="pass" id="pass" placeholder="password"><br>
+        </div>
+        <div class="likething">
+            <p>欲しいものは？</p>
+            <input type="checkbox">
+            <label for="likething">オレンジ</label>
+            <input type="checkbox">
+            <label for="likething">レモン</label>
+            <input type="checkbox">
+            <label for="likething">リンゴ</label>　
+        </div>
+        <div class="age">
+            <p>年齢</p>
+            <input type="checkbox" value="1">
+            <label for="">２０歳未満</label>
+            <input type="checkbox" value="2">
+            <label for="">６０歳未満</label>
+            <input type="checkbox" value="3">
+            <label for="">６０歳以上</label><br>　
+        </div>
+        <div class="city">
+            <label for="city">住んでいる都市</label>
+            <select name="city" id="city">
+                <option value="">都市選んでください</option>
+                <option value="0">tokyo</option>
+                <option value="1">kyoto</option>
+                <option value="3">osaka</option>
+            </select>
+        </div>
+        <div class="area">
+            <label for="post-content">テキストを入力してください</label> <br>
+            <textarea name="post-content" id="post-content" cols="50" rows="10"></textarea>
+        </div>
+
+    </form>
+</body>
+
+</html>

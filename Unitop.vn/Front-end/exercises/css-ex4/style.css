@@ -1,0 +1,33 @@
+#wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+/* #content p a{
+    font-weight: bold;
+    text-decoration: none black;
+    thả phần này ra bị loạn font vì không định được selector nên trong file html
+    mỗi phần tử a ứng với 1 yêu cầu em bỏ thêm 1 class và khai style class đó trong file css
+
+} */
+footer p{
+color: orange;
+text-align: right;
+}
+
+
+.text-bold{
+    font-weight: bold;
+    
+}
+.text-line-through{
+    text-decoration:line-through;
+    font-weight: bold;
+    text-align: justify;
+}

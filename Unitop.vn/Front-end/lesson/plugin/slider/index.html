@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <title>Awl Carousel slider</title>
+
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true ,
+    margin:10,
+    nav:true,
+    items:6,
+    margin:15 ,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        800:{
+            items:4
+        },
+        1000:{
+            items:5
+        },
+        1200:{
+            items:6
+        }
+    }
+})
+        });
+    </script>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <a href=""><img src="images/a1.png" alt=""></a>
+        </div>
+        <div class="item">
+            <a href=""><img src="images/a2.png" alt=""></a>
+        </div>
+        <div class="item">
+            <a href=""><img src="images/a3.png" alt=""></a>
+        </div>
+        <div class="item">
+            <a href=""><img src="images/a4.png" alt=""></a>
+        </div>
+        <div class="item">
+            <a href=""><img src="images/a5.png" alt=""></a>
+        </div>
+       
+        
+    </div>
+</body>
+
+</html>

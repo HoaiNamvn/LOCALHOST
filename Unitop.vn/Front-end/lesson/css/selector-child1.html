@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector child</title>
+</head>
+
+<body>
+    <style>
+        ul li:first-child {
+            font-weight: bold;
+            color: red;
+        }
+
+        ul li:last-child {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+    <h1> child selector</h1>
+    <ul>
+        <li>Item1</li>
+        <li>Item2
+            <ul>
+                <li>Item2.1</li>
+                <li>Item2.2 </li>
+                <li>Item2.3 </li>
+                <li>Item2.4 </li>
+                <li>Item2.5 </li>
+            </ul>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ul>
+</body>
+
+</html>

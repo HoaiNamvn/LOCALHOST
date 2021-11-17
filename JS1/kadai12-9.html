@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function print(data) {
+      let output = document.getElementById("output");
+      output.innerHTML += data;
+    }
+    function println(data) { 
+      if (data == undefined) print("<br>");
+      else print(data+"<br>");
+    }
+  </script> 
+</head>
+<body>
+  <h1>kadai9</h1>
+  
+  <script>
+    for (let i = 1; i <= 9; i++) {
+      for (let j = 1; j <= 9; j++) {
+        console.log(i * j);
+        print("<br>");
+      }
+    }
+  </script>
+
+</body>
+
+</html>

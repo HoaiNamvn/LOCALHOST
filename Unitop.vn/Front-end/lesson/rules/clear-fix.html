@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear-fix</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .box-parent {
+            width: 960px;
+            margin: 0px auto;
+            background-color: aqua;
+        }
+
+        .box-left {
+            width: 600px;
+            background-color: burlywood;
+        }
+
+        .box-right {
+            width: 360px;
+            background-color: blueviolet;
+        }
+
+        .box-left,
+        .box-right {
+            float: left;
+            min-height: 600px;
+        }
+
+        /* reser */
+        .clear-fix::after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0px;
+            height: 0;
+        }
+        .clear-fix{
+            clear: both;
+            display: block;
+        }
+    </style>
+    <h1> Kĩ thuật chông sập độ cao </h1>
+    <div class="box-parent clear-fix" >
+        <div class="box-left">box-left</div>
+        <div class="box-right">box-right</div>
+    </div>
+    <!-- <h1> Kĩ thuật chông sập độ cao </h1>
+    <div class="box-parent " >
+        <div class="box-left">box-left</div>
+        <div class="box-right">box-right</div>
+        <div class="clear-fix"></div>
+    </div> -->
+</body>
+
+</html>
